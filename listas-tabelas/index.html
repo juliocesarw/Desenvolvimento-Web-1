@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas e tabelas</title>
+</head>
+<body>
+    <h1>Listas</h1>
+
+    <!-- -------------------------------------------------------------------------------------------------------------------------- -->
+    <h2>Lista de tópicos</h2>
+    
+    <h3>Lista de Compras</h3>
+    <ul><!--Lista não ordenada-->
+        <li>Arroz</li>
+        <li>Frutas</li>
+        <!--Criando sublistas-->
+        <ul>
+            <li>Melancia</li>
+            <li>Laranja</li>
+            <li>Limão galego</li>
+        </ul>
+        <li>Macarrão</li>
+        <li>Leite</li>
+        <li>Biscoito</li>
+    </ul>
+    
+    <!-- -------------------------------------------------------------------------------------------------------------------------- -->
+    
+    <h2>Lista Enumerada</h2> <!-- Lista ordenada -->
+    
+    <h3>Filmes</h3>
+    
+    <ol type="A"><!-- dá para expecificar o tipo: A a I i -->
+        <li>Veloses e Furiosos</li>
+        <li>KungFU panda</li>
+        <li>Carros</li>
+        <li>O ódio que você semeia</li>
+        <li>Carga explosiva</li>
+    </ol>
+
+    <!-- -------------------------------------------------------------------------------------------------------------------------- -->
+    
+    <!-- TABELAS -->
+    
+    <h2>Tabela Simples 2 x 3</h2>
+    
+    <!--table>tr*2>td*3{Linha Coluna $} o $ serve de enumerador-->
+    
+    <table border="1" style="width: 100%;">
+        <tr><!--TR de table row (linha)-->
+            <td>Linha 1 Coluna 1</td><!-- TD de table data-->
+            <td>Linha 1 Coluna 2</td>
+            <td>Linha 1 Coluna 3</td>
+        </tr>
+        <tr><!--TR de table row (linha)-->
+            <td>Linha 2 Coluna 1</td>
+            <td>Linha 2 Coluna 2</td>
+            <td>Linha 2 Coluna 3</td>
+        </tr>
+    </table>
+    
+    <!-- -------------------------------------------------------------------------------------------------------------------------- -->
+    
+    <h2>Tabela com titulo 3 x 2</h2>
+    
+    <table border="1">
+        
+        <thead><!-- Títulos-->
+            <tr>
+                <th>Título Coluna 1</th><!--Dentro do head a coluna é TH-->
+                <th>Título Coluna 2</th>
+            </tr>
+        </thead>
+        <tbody> <!-- Valores-->
+            <tr>
+                <td>Linha 2 Coluna 1</td>
+                <td>Linha 2 Coluna 2</td>
+            </tr>
+            <tr>
+                <td>Linha 3 Coluna 1</td>
+                <td>Linha 3 Coluna 2</td>
+            </tr>
+            <tr>
+                <td>Linha 4 Coluna 1</td>
+                <td>Linha 4 Coluna 2</td>
+            </tr>
+        </tbody>
+        <!-- tr*3>td{Linha $ Coluna 1}+td{Linha $ Coluna 2} -->
+        
+        
+    </table>
+    
+    <!-- -------------------------------------------------------------------------------------------------------------------------- -->
+    
+    <h2>Tabela com Título com mesclagem de tabela</h2>
+
+    <table border="1">
+
+        <thead>
+            <tr>
+                <tr>
+                    <th colspan="2">Titulo da tabela</th>  <!--mesclagem de coluna-->
+                </tr>
+                <th>Título Coluna 1</th>
+                <th>Título Coluna 2</th>
+            </tr>
+        </thead>
+        <tbody> 
+            <tr>
+                <td>Linha 2 Coluna 1</td>
+                <td>Linha 2 Coluna 2</td>
+            </tr>
+            <tr>
+                <td>Linha 3 Coluna 1</td>
+                <td>Linha 3 Coluna 2</td>
+            </tr>
+            <tr>
+                <td>Linha 4 Coluna 1</td>
+                <td>Linha 4 Coluna 2</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- -------------------------------------------------------------------------------------------------------------------------- -->
+
+
+    <h2>Tabela simples 4 x 4 com mesclagem de linha</h2>
+
+    <table border="1">
+        <tr>
+            <td rowspan="2">Linha 1 e 2 Coluna 1</td> <!--Meclagem de linha --> 
+            <td>Linha 1 Coluna 2</td>
+            <td>Linha 1 Coluna 3</td>
+            <td>Linha 1 Coluna 4</td>
+        </tr>
+        <tr>
+            <!-- <td>Linha 2 Coluna 1</td> -->
+            <td>Linha 2 Coluna 2</td>
+            <td>Linha 2 Coluna 3</td>
+            <td>Linha 2 Coluna 4</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Linha 3 e 4 Coluna 1</td>
+            <td>Linha 3 Coluna 2</td>
+            <td>Linha 3 Coluna 3</td>
+            <td>Linha 3 Coluna 4</td>
+        </tr>
+        <tr>
+            <!-- <td>Linha 4 Coluna 1</td> -->
+            <td>Linha 4 Coluna 2</td>
+            <td>Linha 4 Coluna 3</td>
+            <td>Linha 4 Coluna 4</td>
+        </tr>
+    </table>
+
+</body>
+</html>
