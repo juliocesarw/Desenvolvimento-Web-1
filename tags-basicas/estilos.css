@@ -1,0 +1,27 @@
+.strong{
+    font-weight: bold;
+}
+
+.italico{
+    font-style: italic;
+}
+
+.mark{
+    background-color: yellow;
+}
+
+.del{
+    text-decoration: underline;
+}
+
+.ins{
+    text-decoration: underline;
+}
+
+.sub{
+    vertical-align: sub;
+}
+
+.sup{
+    vertical-align: super;
+}
