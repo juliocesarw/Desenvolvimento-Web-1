@@ -1,0 +1,11 @@
+body{
+    box-sizing: border-box;
+    border: 1px solid red; 
+    margin: 0px;
+}
+
+header img{
+    display: block;
+    margin: auto;
+    width: 100%;
+}

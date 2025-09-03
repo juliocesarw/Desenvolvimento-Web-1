@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    font-family: UOLtext, Arial, sans-serif;
+    text-align: left;
+}
+
+#titulo-principal{
+    font-size: 40px;
+}
+
+.titulo{
+    font-weight: bold;
+}
+
+.texto-img{
+    font-size: 14px;
+}
+
+
+.img{
+    width: 640px;
+    height: 359.81px;
+    border-radius: 1%;
+}
+
+.bottom-img{
+    margin-left: 14px;
+    
+}
+
+.div-para-linha{
+    border-left: solid red;
+}
+
+.data-img, .autor-img{
+    color: #666666
+}
+
+.texto{
+    margin:32px 0px 32px 0px ;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.lista{
+    font-size: 20px;
+    margin-top: 16px;
+    
+}
+
+.letra-vermelha{
+    color: red;
+    text-decoration: underline;
+}
+
+ul li::marker{
+    color: red;
+}
+
+ul li{
+    margin-top: 16px;
+}
+
+.ultimo-texto{
+    font-style: italic;
+    font-size: 26px;
+}
+
+
+
+
+
