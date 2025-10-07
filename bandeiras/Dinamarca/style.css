@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.superior{
+    display: flex;
+    width: 100%;
+    height: 30vh;
+    justify-content: space-between;
+    justify-content: space-between;
+}
+
+.vermelho{
+    width: 25%;
+    background-color: rgb(200, 16, 46);
+}
+
+.vermelho2{
+    width: 70%;
+    background-color: rgb(200, 16, 46);
+}
+/* fsdjakffffffffffffffffffffffffffffffffffffffffffffffffffffff */
+.inferior{
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    justify-content: space-between;
+}
+
+.vermelho{
+    width: 25%;
+    background-color: rgb(200, 16, 46);
+}
+
+.vermelho2{
+    width: 70%;
+    background-color: rgb(200, 16, 46);
+}

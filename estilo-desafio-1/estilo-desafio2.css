@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+
+}
+
+p{
+    display: inline;
+}
+
+.box1{
+    background-color: blue;
+}
+
+.box2{
+    background-color: red;
+}
+
+.box3{
+    background-color: green;
+}
+
