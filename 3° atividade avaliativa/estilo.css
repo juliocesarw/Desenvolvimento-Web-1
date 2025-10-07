@@ -1,7 +1,36 @@
-body{
+/* PEGUEI A IMPORTAÇÃO DA FONTE NO CHATGPT */
+@font-face {
+  font-family: 'UOLText';
+  src: url('fonts/UOLText.woff2') format('woff2'),
+       url('fonts/UOLText.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: 'UOLText', Arial, sans-serif;
+  background-color: whitesmoke;
+}
+
+
+:root{
+    --tamanho: 25px;
+}
+
+/* perdoa, é só para garantir os tamanhos*/
+*{
     box-sizing: border-box;
-    border: 1px solid red; 
     margin: 0px;
+}
+
+main p{
+    font-size: 18px;
+}
+
+/* voce disse que podia usar kkkkkkk */
+.container{
+    margin: 0px 130px 0px 130px;
 }
 
 header img{
@@ -9,3 +38,60 @@ header img{
     margin: auto;
     width: 100%;
 }
+
+div h1{
+    margin-top: var(--tamanho);
+    text-align: center;
+    letter-spacing: 2px; 
+
+}
+
+.secao1 .titulo-principal{
+    font-size: 45px;
+    font-weight: normal;
+    margin: var(--tamanho) 0px var(--tamanho) 0px;
+    text-align: center;
+}
+.secao1 .img-01{
+    width: 100%;
+    height: auto;
+}
+
+.container .img-figcapition{
+    margin: 6px 0px 20px 0px;
+    font-weight: bold;
+}
+
+.secao1 .autor-colaborador{
+    margin-bottom: var(--tamanho);
+    font-weight: bold;
+}
+
+.box p{
+    margin:  0px 0px var(--tamanho) 0px;
+}
+
+.secao2 .azul-sub{
+    text-decoration: underline;
+    color: rgb(2, 150, 176);
+}
+
+.secao3 h2{
+    margin-bottom: var(--tamanho);
+    
+}
+
+.secao3 img{
+    width: 100%;
+    height: auto;
+}
+
+.container .box{
+    margin-right: 200px;
+    padding: 0px;
+}
+
+.container .cinza{
+    color: grey;
+}
+
