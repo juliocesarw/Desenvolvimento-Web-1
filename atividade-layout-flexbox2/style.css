@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1, a{
+    color: white;
+    text-decoration: none;
+    line-height: 70px;
+}
+
+.item1 div{
+    width: 150px;
+    text-align: center;
+}
+
+
+.item2 div{
+    width: 300px;
+    display: flex;
+    text-align: center;
+}
+
+.item2 div a{
+    width: 100px;
+}
+
+.item2 div a:hover{
+    background-color: white;
+    color: black;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+main{
+    width: 920px;
+    height: 400px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+div{
+    flex-shrink: 1;
+}
+
+.container-conteudo-1{
+    width: 450px;
+}
+
+.container-conteudo-1 .container-img1{
+    width: 450px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: url(pexels-myfoodie-2664443.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nome{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: rgba(44, 44, 44, 0.7);
+}
+
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-left: 30px;
+    color: white;
+    opacity: 100%;
+}
+
+.container-conteudo-2{
+    height: 400px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container-conteudo-2 .container-img1, .container-img2{
+    width: 450px;
+    height: 190px;
+    display: flex;
+    align-items: flex-end;
+    background-size: cover;
+}
+
+.container-conteudo-2 .container-img1{
+    background-image: url(computacao.jpg);
+}
+
+.container-conteudo-2 .container-img2{
+    background-image: url(pexels-cliff-booth-4058411.jpg);
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+@media (max-width: 920px){
+    main{
+        width: 450px;
+        height: 820px;
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 505px){
+
+    main, main div.container-conteudo-1, main div.container-conteudo-2, main div.container-conteudo-1 .container-img1, main div.container-conteudo-2 .container-img1, main div.container-conteudo-2 .container-img2{
+        width: 320px;
+    }
+
+    .item1 div{
+       width: 130px;
+}
+    
+}
