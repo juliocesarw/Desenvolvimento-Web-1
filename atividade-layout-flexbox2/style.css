@@ -9,6 +9,7 @@ header{
     background-color: black;
     display: flex;
     justify-content: space-between;
+    
 }
 
 header h1, a{
