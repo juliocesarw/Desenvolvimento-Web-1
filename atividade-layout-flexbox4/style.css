@@ -11,9 +11,60 @@ header{
 
 header .container{
     margin: auto;
-    max-width: 1000px;
+    max-width: 920px;
     height: 100%;
     display: flex;
-    justify-content: center;
-    border: 1px solid white;
+    justify-content: space-between;
+}
+
+.container .item1{
+    color: white;
+}
+
+.container .item2{
+    text-decoration: none;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .item2 a, .container .item1{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    line-height: 70px;
+    text-align: center;
+}
+
+.container .item1{
+    font-size: 24px;
+}
+
+/* divisoria-divisoria-divisoria-divisoria-divisoria-divisoria-divisoria-divisoria-divisoria-divisoria-divisoria */
+
+main .parte-de-cima{
+    width: 920px;
+    height: 180px;
+    margin: 50px auto;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .parte-de-cima div{
+    width: 293px;
+    height: 180px;
+}
+
+main .parte-de-cima div .video{
+    width: 293px;
+    height: 150px;
+    background-color: gray;
+}
+
+main .parte-de-baixo{
+    width: 920px;
+    height: 180px;
+    margin: auto;
+    border: 1px solid purple;
 }
